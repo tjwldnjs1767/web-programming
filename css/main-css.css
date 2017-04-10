@@ -1,0 +1,213 @@
+h1, h3 {
+    font-family: Tahoma;
+    color: #2C3E50;
+}
+
+figure {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 3px;
+    overflow: hidden;
+    float: left;
+}
+
+figure img {
+    display: block;
+    width: inherit;
+    float: left;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 3px;
+    opacity: 0;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 4px;
+    background: #666;
+    color: #fff;
+    font-size: 30px;
+    transition: .5s;
+    text-align: center;
+}
+
+figure:hover > figcaption {
+    opacity: .8;
+}
+
+.navbar-custom {
+    background: #2C3E50;
+    text-transform: uppercase;
+    border: none;
+    text-align: left;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    position:fixed;
+    left:0px;
+}
+
+a {
+    letter-spacing: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+hr {
+    color: #2C3E50;
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+button,
+button::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+button {
+    background: none;
+    border: 3px solid #2C3E50;
+    border-radius: 5px;
+    color: #cccccc;
+    font-size: 12px;
+    margin: 1em auto;
+    padding: 1em 3em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+button::before,
+button::after {
+    background: #fff;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+button:hover {
+    color: #2C3E50;
+}
+
+.btn::after {
+    height: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.btn:hover:after {
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: #2C3E50;
+}
+
+#nav-menu {
+    width: auto;
+    height: 40px;
+    background-color: #2C3E50;;
+}
+
+#nav-menu ul {
+    display: inline;
+    padding-left: 0px;
+    float: right;
+    margin: 10px;
+    list-style-type: none;
+}
+
+#nav-menu ul li {
+    display: inline;
+    border-left: 1px solid black;
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+}
+
+#nav-menu ul li:first-child {
+    border-left: none;
+}
+
+.image {
+    position: relative;
+    float: left;
+}
+
+.image .text {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-family: Tahoma;
+}
+
+.section-flower {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#portfolio, #about,#contact {
+    color: #2C3E50;
+}
+
+h3 {
+    text-align: center;
+}
